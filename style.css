@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(21, 75, 138);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column; /*orientação da direção para os itens, nesse caso em colunas ao invés de linhas*/
+    display: flex; /*para deixar o display flexível e personalizável*/
+}
+
+#cookies-msg {
+    width: 80%;
+    position: fixed;
+    z-index: 90;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 17px;
+    background-color: rgba(0, 0, 0, 0.904);
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+}
+
+#cookies-msg.mostrar {
+    display: block;
+}
+
+#aceitocookies button {
+    background-color: rgba(255, 255, 255, 0.904);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 8px 18px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 90;
+    top: 109px;
+    right: 923px;
+}
+#legenda-cookies{
+    color: aliceblue;
+    text-align: left;
+}
+
+@font-face {
+    font-family: 'college';
+    src: url('college.ttf') format('truetype');
+}
+
+
+.secao{
+    position: relative;
+    top: -460px;
+    z-index: 80;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.secao-individual{
+    background: rgba(255, 255, 255, 0.801);
+    padding: 5px;
+    width: 10%;
+    border-radius: 10px;
+    flex: 3;
+    margin: 10px;
+}
+
+.alert-heading{
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 2.3rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+    margin: 10px;
+}
+
+p{
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color: black;
+}
+
+hr{
+    text-align: center;
+    margin-left: 22px;
+    max-width: 90%;
+}
+
+.creditos{
+    font-size: 0.9rem;
+}
+
+footer{
+    text-align: center;
+    padding: 18px;
+    background-color: rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 160px;
+    
+
+}
+
+.texto-rodape{
+    font-size: 1rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
