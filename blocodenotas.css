@@ -2,10 +2,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
-    padding: 20px;
-    background-image: url('escritorio.avif');
+    padding: 0;
+    background-image: url('img/escritorio.avif');
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  /* Faz com que o body ocupe pelo menos a altura da tela */
 }
 
 .caixa {
@@ -56,7 +59,6 @@ ul {
 }
 
 li {
-    
     margin: 5px 0;
     padding: 10px;
     border-radius: 4px;
@@ -65,20 +67,20 @@ li {
 .altura {
     margin-top: 100px;
     margin-bottom: 100px;
+    flex-grow: 1;  /* Faz com que esse elemento ocupe o máximo de espaço possível */
 }
 
-footer{
+footer {
     text-align: center;
     padding: 18px;
     background-color: rgb(0, 0, 0);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 160px;
-    min-width: 100%;
+    width: 100%;
     margin: 0;
-
 }
 
-.texto-rodape{
+.texto-rodape {
     font-size: 1rem;
     color: white;
     font-family: Arial, Helvetica, sans-serif;

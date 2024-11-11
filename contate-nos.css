@@ -1,10 +1,8 @@
-
 body{
-    background-image: url('escritorio.avif');
+    background-image: url('img/escritorio.avif');
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
-    
     flex-direction: column; /*orientação da direção para os itens, nesse caso em colunas ao invés de linhas*/
     display: flex; /*para deixar o display flexível e personalizável*/
 }
